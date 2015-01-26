@@ -1,4 +1,6 @@
 alias k=clear
+alias init.d='/etc/init.d/'
+
 alias aget='sudo apt-get install'
 alias apt=aptitude
 alias kill='sudo kill'
