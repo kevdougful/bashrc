@@ -11,3 +11,4 @@ alias iptraf='sudo iptraf'
 
 # my git aliases
 alias gm='git commit -m '
+alias ga='git add '
