@@ -1,5 +1,8 @@
 alias k=clear
+alias shut='shutdown -r now'
+
 alias init.d='/etc/init.d/'
+
 
 alias aget='sudo apt-get install'
 alias apt=aptitude
