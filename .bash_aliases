@@ -1,6 +1,13 @@
-alias l='ls -l'
+# ls
+alias l='ls --color=auto -l'
+alias la='ls --color=auto -la'
+alias ld='ls --color=auto -ld'
+alias lA='ls --color=auto -lA'
+
 alias k='clear;ls -la'
-alias shut='shutdown -r now'
+
+alias shut='sudo shutdown -r now'
+alias reboot='sudo reboot'
 
 alias init.d='/etc/init.d/'
 
