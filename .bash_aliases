@@ -1,5 +1,5 @@
 alias l='ls -l'
-alias k='clear;ls -l'
+alias k='clear;ls -la'
 alias shut='shutdown -r now'
 
 alias init.d='/etc/init.d/'
