@@ -9,11 +9,14 @@ alias k='clear;ls -la'
 alias shut='sudo shutdown -r now'
 alias reboot='sudo reboot'
 
-alias init.d='/etc/init.d/'
-
+alias init.d='/etc/init.d'
 
 alias aget='sudo apt-get install'
+alias aup='sudo apt-get -y update && sudo apt-get -y upgrade'
 alias apt=aptitude
+alias last-update="ls -l /var/lib/apt/periodic/update-success-stamp"
+alias last-upgrade="ls -l /var/lib/apt/periodic/upgrade-stamp"
+
 alias kill='sudo kill'
 
 # stole these from http://durdn.com/blog/2012/11/22/must-have-git-aliases-advanced-examples
