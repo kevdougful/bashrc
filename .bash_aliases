@@ -4,9 +4,11 @@ alias la='ls --color=auto -la'
 alias ld='ls --color=auto -ld'
 alias lA='ls --color=auto -lA'
 
+alias ~='cd ~'
+
 alias k='clear;ls -la'
 
-alias shut='sudo shutdown -r now'
+alias shut='sudo shutdown -h now'
 alias reboot='sudo reboot'
 
 alias init.d='/etc/init.d'
