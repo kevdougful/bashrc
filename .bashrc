@@ -78,9 +78,11 @@ BMAG="\[\033[45m\]" # background magenta
 BCYN="\[\033[46m\]" # background cyan
 BWHT="\[\033[47m\]" # background white
 
+source ~/.git-prompt.sh
+
 if [ "$color_prompt" = yes ]; then
     #PS1='${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ '
-    PS1="$HC$FYEL[ $FGRN\t $FBLE${debian_chroot:+($debian_chroot)}\u@\h$FYEL: $FBLE\w $FYEL]\n\\$ $RS"
+    PS1="$HC$FYEL[ $FGRN\t $FBLE${debian_chroot:+($debian_chroot)}\u@\h$FYEL: $FBLE\w $FYEL] $FMAG\$(__git_ps1)\n$FYEL\\$ $RS"
 else
     #PS1='${debian_chroot:+($debian_chroot)}\u@\h:\w\$ '
     PS1="[ ${debian_chroot:+($debian_chroot)}\u@\h: \w ]\\$ "
