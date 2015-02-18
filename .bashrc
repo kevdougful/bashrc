@@ -78,6 +78,7 @@ BMAG="\[\033[45m\]" # background magenta
 BCYN="\[\033[46m\]" # background cyan
 BWHT="\[\033[47m\]" # background white
 
+# from https://raw.githubusercontent.com/git/git/master/contrib/completion/git-prompt.sh
 source ~/.git-prompt.sh
 
 if [ "$color_prompt" = yes ]; then
