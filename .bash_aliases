@@ -34,5 +34,5 @@ alias gm='git commit -m '
 alias ga='git add '
 
 #VirtualBox
-alias vman='VBoxManage '
-alias startvm='VBoxManage startvm --type headless '
+alias vman='sudo VBoxManage '
+alias startvm='sudo VBoxManage startvm --type headless '
