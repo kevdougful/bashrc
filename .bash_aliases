@@ -32,3 +32,7 @@ alias iptraf='sudo iptraf'
 # my git aliases
 alias gm='git commit -m '
 alias ga='git add '
+
+#VirtualBox
+alias vman='VBoxManage '
+alias startvm='VBoxManage startvm --type headless '
